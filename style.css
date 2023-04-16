@@ -1,0 +1,41 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+body{
+    background-color: black;
+    color: whitesmoke;
+    height: 100vh;
+    display: flex;
+    align-items:center ;
+    justify-content: center;
+    flex-direction: column;
+}
+.stopwatch{
+    background-color: rgb(27, 24, 24);
+    padding:30px 25px ;
+    font-size: 50px;
+    border-radius: 25px;
+    
+}
+.button{
+    display: flex;
+    margin: 10px 20px;
+    padding: 10px;
+  
+}
+.btn{
+    margin: 10px;
+    font-size: 25px;
+    border: 2px solid gray;
+    padding: 10px 20px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px;
+
+}
+.btn:hover{
+    cursor: pointer;
+    background-color: rgb(47, 28, 3);
+}
